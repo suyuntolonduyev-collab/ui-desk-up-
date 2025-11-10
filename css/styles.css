@@ -452,12 +452,44 @@ body {
 }
 
 .chefs__list-item::before {
-  content: "";
   width: 20px;
   height: 20px;
-  background-image: url("../img/check.svg");
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
   left: 0;
+}
+
+.sp-dsh {
+  width: 1170px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.sp-dsh__titles {
+  margin: 0;
+  text-align: center;
+}
+
+.sp-dsh__title {
+  font-size: 54px;
+  text-align: center;
+  color: #151414;
+}
+
+.sp-dsh__text {
+  font-size: 24px;
+  text-align: center;
+  color: #3b433e;
+}
+
+.sp-dsh__images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1170px;
+}
+
+.sp-dsh__button {
+  text-align: center;
 }
