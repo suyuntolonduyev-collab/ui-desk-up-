@@ -387,3 +387,77 @@ body {
   color: var(--brand-dark-light);
   padding-bottom: 40px;
 }
+
+.chefs {
+  padding-top: 80px;
+  max-width: 1248px;
+  margin: 0 auto;
+  margin-bottom: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.chefs__text {
+  max-width: 500px;
+}
+
+.chefs__img-wrapper {
+  max-width: 650px;
+  height: 584px;
+}
+
+.chefs__image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.chefs__title {
+  font-size: 54px;
+  color: #151414;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.chefs__desc {
+  font-size: 22px;
+  line-height: 155%;
+  color: #181d19;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.the__ptichka {
+  margin-right: 19px;
+}
+
+.chefs__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.chefs__list-item {
+  padding-left: calc(0 17px);
+  font-size: 20px;
+  color: #181d19;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.chefs__list-item::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/check.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 0;
+}
