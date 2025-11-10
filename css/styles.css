@@ -1,4 +1,3 @@
-/* CSS переменные / Custom properties / Кастомные свойства */
 :root {
   --white: #fff;
   --black: #000;
@@ -326,6 +325,7 @@ body {
 }
 
 .about__title {
+  font-weight: 500;
   font-size: 54px;
   color: var(--brand-dark);
 }
@@ -376,6 +376,7 @@ body {
 }
 
 .vegs__title {
+  font-weight: 500;
   margin-top: 0;
   font-size: 54px;
   color: var(--brand-dark);
@@ -415,6 +416,7 @@ body {
 }
 
 .chefs__title {
+  font-weight: 500;
   font-size: 54px;
   color: #151414;
   margin: 0;
@@ -472,6 +474,7 @@ body {
 }
 
 .sp-dsh__title {
+  font-weight: 500;
   font-size: 54px;
   text-align: center;
   color: #151414;
@@ -490,6 +493,46 @@ body {
   width: 1170px;
 }
 
+.sp-dsh__images img:nth-child(2) {
+  padding-bottom: 29px;
+}
+
 .sp-dsh__button {
   text-align: center;
+  padding-bottom: 120px;
+}
+
+.thelast {
+  padding: 0;
+  padding-top: 70px;
+  background: #fcfcfc;
+  width: 1440px;
+  margin: 0;
+}
+
+.thelast__title {
+  font-weight: 500;
+  font-size: 54px;
+  text-align: center;
+  color: #151414;
+}
+
+.thelast__images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding-bottom: 50px;
+}
+
+.thelast__images img:nth-child(2) {
+  padding-bottom: 30px;
+}
+
+.aarrows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-bottom: 70px;
 }
