@@ -384,6 +384,6 @@ body {
 .vegs__discription {
   font-size: 22px;
   line-height: 155%;
-  color: #181d19;
+  color: var(--brand-dark-light);
   padding-bottom: 40px;
 }
