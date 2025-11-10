@@ -536,3 +536,35 @@ body {
   margin: 0 auto;
   padding-bottom: 70px;
 }
+
+.final__title {
+  padding-top: 120px;
+  font-weight: 500px;
+  font-size: 36px;
+  text-align: center;
+  color: #151414;
+}
+
+.final__text {
+  font-size: 24px;
+  text-align: center;
+  color: #3b433e;
+  padding-bottom: 47px;
+}
+
+input[type="email"] {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 165px;
+  width: 330px;
+  height: 60px;
+  font-size: 18px;
+  color: #8a8a8a;
+  margin-right: 15px;
+  gap: 20px;
+}
+.mail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
