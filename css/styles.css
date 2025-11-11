@@ -19,9 +19,16 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  height: 100%;
+  background-color: #fff; /* или цвет фона страницы */
+}
+
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
   font-family: "Poppins", "sans-serif";
   font-size: 18px;
   overflow-x: hidden;
@@ -465,12 +472,12 @@ body {
 .sp-dsh {
   width: 1170px;
   margin: 0 auto;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .sp-dsh__titles {
-  margin: 0;
   text-align: center;
+  margin-bottom: 0;
 }
 
 .sp-dsh__title {
@@ -478,12 +485,14 @@ body {
   font-size: 54px;
   text-align: center;
   color: #151414;
+  margin-bottom: 15px;
 }
 
 .sp-dsh__text {
   font-size: 24px;
   text-align: center;
   color: #3b433e;
+  margin: 0px;
 }
 
 .sp-dsh__images {
@@ -567,4 +576,71 @@ input[type="email"] {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 150px;
+}
+
+.footer {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.f-menu {
+  padding: 114px 165px 114px 165px;
+  width: 1440px;
+  background: #fcfcfc;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.f-menu-left {
+  max-width: 262px;
+}
+
+.f-menu-disc {
+  font-size: 16px;
+  color: #657582;
+  margin-top: 34px;
+}
+
+.f-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.f-menu-items {
+  font-weight: 500;
+  font-size: 22px;
+  color: #2c3847;
+}
+
+.f-menu-list-items {
+  font-size: 16px;
+  color: #657582;
+  line-height: 1.5;
+}
+
+.f-menu-link {
+  text-decoration: none;
+  color: #657582;
+  transition: color 0.3s ease;
+}
+
+.f-menu-link:hover {
+  color: #2c3847;
+}
+
+.footer-end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #64bb47 0%, #2c9553 100%);
+  width: 1440px;
+}
+
+.footer-end-text {
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
 }
